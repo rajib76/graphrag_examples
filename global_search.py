@@ -12,17 +12,7 @@ from graphrag.query.structured_search.global_search.community_context import Glo
 from graphrag.query.structured_search.global_search.search import GlobalSearch
 
 load_dotenv()
-# 1. Setup LLM
 api_key = os.environ["GRAPHRAG_API_KEY"]
-
-
-# llm_model = "gpt-3.5-turbo"
-# llm = ChatOpenAI(
-#     api_key=api_key,
-#     model=llm_model,
-#     api_type=OpenaiApiType.OpenAI,
-#     max_retries=20,
-# )
 
 
 class GlobalGraphSearch():
